@@ -19,9 +19,9 @@ from google import genai
 # SOZLAMALAR
 # ==============================
 
-TOKEN = os.getenv("9104801321:AAHIVOeef7l9GSgu6PtYthGB6xcxVRts5hc")
-CHANNEL_ID = os.getenv("8759154034")
-GEMINI_API_KEY = os.getenv("AQ.Ab8RN6Jvshej2VC5aedIE16UmRnS7UNuIZc-EEwk6nzyLw6t6A")
+TOKEN = os.getenv("BOT_TOKEN")
+CHANNEL_ID = os.getenv("CHANNEL_ID")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 
